@@ -10,6 +10,7 @@ def home():
     return "Hello World"
 
 
+# runs on port 5000 by default.
 if __name__ == '__main__':
     print("Starting!")
     app.run(debug=False, host='0.0.0.0')
