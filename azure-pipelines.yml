@@ -25,5 +25,5 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    python3 main.py
+    python3 app.py
   displayName: 'run'
